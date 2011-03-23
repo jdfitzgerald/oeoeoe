@@ -13,6 +13,7 @@ echo "mem ".memory_get_usage()."<br>";
 $mult = 10;
 $size=8192;
 $x = str_repeat('x',$size);
+$y = '';
 for($i=0;$i<$mult;$i++)
   $y .= str_repeat($y,$size);
 
