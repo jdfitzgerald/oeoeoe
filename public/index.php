@@ -1,8 +1,11 @@
 <?
-echo "ls<br>";
+echo "<br>ls<br>";
 echo `ls`;
 
-echo "proc<br>";
+echo "<br>cwd<br>";
+echo getcwd();
+
+echo "<br>proc<br>";
 $descriptorspec = array( 0 => array("pipe", "r"), 1 => array("pipe", "w"));
 
 $cwd = '/tmp';
