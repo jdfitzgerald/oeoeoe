@@ -6,13 +6,17 @@
 
 //print_R($x=stat('index.php'));
 
-print_r(posix_getpwuid($x['uid']));
+//print_r(posix_getpwuid($x['uid']));
 echo 'ook';
 echo "mem ".memory_get_usage()."<br>";
 
-$mult=8192;
-$x = str_repeat('x',$mult);
-$y = str_repeat($x,$mult);
+$mult = 10;
+$size=8192;
+$x = str_repeat('x',$size);
+for($i=0;$i<$mult;$i++)
+  $y .= str_repeat($y,$size);
+
+
 echo "mem ".memory_get_usage()."<br>";
 
 ini_set('memory_limit','1000M');
