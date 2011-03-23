@@ -10,9 +10,10 @@
 echo 'ook';
 
 echo "mem ".memory_get_usage()."<br>";
-$mult = 120;
+$mult = 129;
 $size = 1024;
 $x = str_repeat('x',$size);
+$y = '';
 for($i=0;$i<$mult;$i++)
   $y .= str_repeat($x,$size);
 
