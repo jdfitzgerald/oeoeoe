@@ -1,2 +1,2 @@
 <?
-echo 'win';
+phpinfo();
