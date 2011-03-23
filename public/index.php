@@ -18,7 +18,7 @@ for($i=0;$i<$mult;$i++)
   $y .= str_repeat($y,$size);
 
 
-echo "mem ".memory_get_peak_usage()."<br>";
+echo "mem peak ".memory_get_peak_usage()."<br>";
 
 //ini_set('memory_limit','1000M');
 $x = $y<1;
