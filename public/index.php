@@ -1,7 +1,7 @@
 <?
 //print_r($_SERVER);
-echo "<br>cwd<br>";
-echo getcwd();
+//echo "<br>cwd<br>";
+//echo getcwd();
 
 
 //print_R($x=stat('index.php'));
