@@ -9,6 +9,8 @@
 //print_r(posix_getpwuid($x['uid']));
 echo 'ook';
 ini_set('memory_limit','1000M');
+echo ini_get('memory_limit');
+echo '<br>';
 
 echo "mem ".memory_get_usage()."<br>";
 $mult = 129;
