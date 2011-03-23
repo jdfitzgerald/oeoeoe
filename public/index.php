@@ -10,9 +10,9 @@ print_r(posix_getpwuid($x['uid']));
 echo 'ook';
 echo "mem ".memory_get_usage()."<br>";
 
-$mult=1024;
+$mult=8192;
 $x = str_repeat('x',$mult);
-$y = str_repeat($oneK,$mult);
+$y = str_repeat($x,$mult);
 echo "mem ".memory_get_usage()."<br>";
 
 ini_set('memory_limit','1000M');
