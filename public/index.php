@@ -13,7 +13,7 @@ echo ini_get('memory_limit');
 echo '<br>';
 
 echo "mem ".memory_get_usage()."<br>";
-$mult = 129;
+$mult = 256;
 $size = 1024;
 $x = str_repeat('x',$size);
 $y = '';
